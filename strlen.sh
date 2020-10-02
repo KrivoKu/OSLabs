@@ -1,6 +1,6 @@
 #!/bin/bash
 function strlen(){
-if [[ "$#" -eq 0 ]]
+if [[ -z $1 ]]
 then
 echo "Error: no string entered" 
 exit -1

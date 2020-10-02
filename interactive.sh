@@ -55,7 +55,10 @@ case "$key" in
 	getHelp
 	;;
 	g)
-	exit 0
+	echo "Please enter exit code"
+	read code
+	./exit.sh $code
+	return
 	;;
 	Modules)
 	echo "===========Avalible Modules============="

@@ -16,12 +16,13 @@ exit -4
 elif ! [ -f $2 ];
 then
 touch $2 &> /dev/null
-tac $1 > $2
+tac $1 | rev> $2
 elif ! [ -w $2 ];
 then
 echo "Error: Unable to rewrite the file $2"
 exit -4
 else
-tac $1 > $2
+text=$(tac $1)
+echo "$text" | rev>$2
 fi
 }
