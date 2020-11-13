@@ -16,7 +16,7 @@ then
 		ppid=0
 	fi
 	rtime=$(grep "se.sum_exec_runtime" $path"/sched" | grep -oE "[0-9]+")
-	swtc=$(grep "nr_swithec" $path"/sched"|grep -oE "[0-9]+")
+	swtc=$(grep "nr_swithches" $path"/sched"|grep -oE "[0-9]+")
 	if [[ -z $swtc || $swtc = "0" || -z $rtime ]]
 	then
 		ART=0
@@ -26,4 +26,3 @@ then
 	echo "$pid $ppid $ART"
 fi
 done | sort -nk2 | awk '{print "PID = "$1" : PPID = "$2" : AVGRuntime = "$3}' > task4.txt
-
