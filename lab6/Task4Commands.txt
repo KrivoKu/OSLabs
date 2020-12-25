@@ -1,0 +1,2 @@
+DRIVEQUERY /FO TABLE > drivers.txt
+SORT /r drivers.txt /Output driversReverseSorted.txt

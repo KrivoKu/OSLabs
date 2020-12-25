@@ -1,0 +1,1 @@
+COPY C:\OSLabs\lab6\Task4_* C:\OSLabs\lab6\Task4Commands.txt

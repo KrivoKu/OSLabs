@@ -1,0 +1,1 @@
+SC QUERY > SCs.txt

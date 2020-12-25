@@ -1,0 +1,7 @@
+SC QUERY > SCs.txt
+NET STOP dnscache
+timeout 30
+SC QUERY > newSCs.txt
+START Task3_check.bat
+NET START dnscache
+fc SCs.txt newSCs.txt > diff.txt
