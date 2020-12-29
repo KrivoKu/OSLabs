@@ -31,3 +31,5 @@ do
 	echo $pid":"$command":"$difference
 done 
 
+rm file1.txt
+rm file2.txt

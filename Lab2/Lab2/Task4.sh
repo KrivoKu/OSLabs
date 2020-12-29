@@ -1,27 +1,22 @@
 #!/bin/bash
-file="task4.txt"
-proc=$(ps -eo pid|tail -n +2)
-if [[ -f $file ]]
-then
-	touch $file
+if [ ! -f task4.txt ]; then
+	touch task4.txt
 fi
-for pid in $proc
+for pid in (ps -Ao | tail -n 2)
 do
 path="/proc/"$pid
-if [[ -e $path"/status" && -e $path/"sched" ]]
+if [[ -d $path ]]
 then
-	ppid=$(grep "PPID*:" $path/"status" |grep -oE "[0-9]+")
+	status=$path"/status"
+	sched=$path"/sched"
+	ppid=$(cat $status| grep "PPid:*" | awk '{ print $2 }')
 	if [[ -z $ppid ]]
 	then
 		ppid=0
 	fi
-	rtime=$(grep "se.sum_exec_runtime" $path"/sched" | grep -oE "[0-9]+")
-	swtc=$(grep "nr_swithches" $path"/sched"|grep -oE "[0-9]+")
-	if [[ -z $swtc || $swtc = "0" || -z $rtime ]]
-	then
-		ART=0
-	else
-		ART=$(echo "scale=5; $rtime/$swtc" | bc | awk '{printf "%f", $0}')
+	rtime=$(cat $sched|grep "sum_exec_runtime" | awk '{print $3}' )
+	swtc=$(cat $sched| grep "nr_switches" | awk '{print $3}'
+		ART=$(echo "scale=5; $rtime/$swtc" | bc -l)
 	fi
 	echo "$pid $ppid $ART"
 fi
