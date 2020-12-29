@@ -1,0 +1,2 @@
+SCHTASKS /End /TN "CopyOnNetDisk"
+

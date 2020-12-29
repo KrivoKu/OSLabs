@@ -1,0 +1,727 @@
+Сравнение файлов SCs.txt и NEWSCS.TXT
+***** SCs.txt
+
+Имя_службы: InstallService
+Выводимое_имя: Служба установки Microsoft Store
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: gpsvc
+Выводимое_имя: Клиент групповой политики
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: iphlpsvc
+Выводимое_имя: Вспомогательная служба IP
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: InstallService
+Выводимое_имя: Служба установки Microsoft Store
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: KeyIso
+Выводимое_имя: Изоляция ключей CNG
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: iphlpsvc
+Выводимое_имя: Вспомогательная служба IP
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: LanmanServer
+Выводимое_имя: Сервер
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: KeyIso
+Выводимое_имя: Изоляция ключей CNG
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: LanmanWorkstation
+Выводимое_имя: Рабочая станция
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: LanmanServer
+Выводимое_имя: Сервер
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: lfsvc
+Выводимое_имя: Служба географического положения
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: LanmanWorkstation
+Выводимое_имя: Рабочая станция
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: LicenseManager
+Выводимое_имя: Служба Windows License Manager
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: lfsvc
+Выводимое_имя: Служба географического положения
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: lmhosts
+Выводимое_имя: Модуль поддержки NetBIOS через TCP/IP
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: LicenseManager
+Выводимое_имя: Служба Windows License Manager
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: LSM
+Выводимое_имя: Диспетчер локальных сеансов
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: lmhosts
+Выводимое_имя: Модуль поддержки NetBIOS через TCP/IP
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: mpssvc
+Выводимое_имя: Брандмауэр Защитника Windows
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: LSM
+Выводимое_имя: Диспетчер локальных сеансов
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: NcbService
+Выводимое_имя: Посредник подключений к сети
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: mpssvc
+Выводимое_имя: Брандмауэр Защитника Windows
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: NcdAutoSetup
+Выводимое_имя: Автоматическая настройка сетевых устройств
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: NcbService
+Выводимое_имя: Посредник подключений к сети
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: netprofm
+Выводимое_имя: Служба списка сетей
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: NcdAutoSetup
+Выводимое_имя: Автоматическая настройка сетевых устройств
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: NlaSvc
+Выводимое_имя: Служба сведений о подключенных сетях
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: netprofm
+Выводимое_имя: Служба списка сетей
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: nsi
+Выводимое_имя: Служба интерфейса сохранения сети
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: NlaSvc
+Выводимое_имя: Служба сведений о подключенных сетях
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: PcaSvc
+Выводимое_имя: Служба помощника по совместимости программ
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: nsi
+Выводимое_имя: Служба интерфейса сохранения сети
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: PlugPlay
+Выводимое_имя: Plug and Play
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: PcaSvc
+Выводимое_имя: Служба помощника по совместимости программ
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: Power
+Выводимое_имя: Питание
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: PlugPlay
+Выводимое_имя: Plug and Play
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: ProfSvc
+Выводимое_имя: Служба профилей пользователей
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: Power
+Выводимое_имя: Питание
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: RasMan
+Выводимое_имя: Диспетчер подключений удаленного доступа
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: ProfSvc
+Выводимое_имя: Служба профилей пользователей
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: RmSvc
+Выводимое_имя: Служба управления радио
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: RasMan
+Выводимое_имя: Диспетчер подключений удаленного доступа
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: RpcEptMapper
+Выводимое_имя: Сопоставитель конечных точек RPC
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: RmSvc
+Выводимое_имя: Служба управления радио
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: RpcSs
+Выводимое_имя: Удаленный вызов процедур (RPC)
+        Тип                : 20  WIN32_SHARE_PROCESS  
+***** NEWSCS.TXT
+
+Имя_службы: RpcEptMapper
+Выводимое_имя: Сопоставитель конечных точек RPC
+        Тип                : 20  WIN32_SHARE_PROCESS  
+*****
+
+***** SCs.txt
+
+Имя_службы: SamSs
+Выводимое_имя: Диспетчер учетных записей безопасности
+        Тип                : 20  WIN32_SHARE_PROCESS  
+***** NEWSCS.TXT
+
+Имя_службы: RpcSs
+Выводимое_имя: Удаленный вызов процедур (RPC)
+        Тип                : 20  WIN32_SHARE_PROCESS  
+*****
+
+***** SCs.txt
+
+Имя_службы: Schedule
+Выводимое_имя: Планировщик заданий
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: SamSs
+Выводимое_имя: Диспетчер учетных записей безопасности
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: seclogon
+Выводимое_имя: Вторичный вход в систему
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: Schedule
+Выводимое_имя: Планировщик заданий
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: SecurityHealthService
+Выводимое_имя: Служба "Безопасность Windows"
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: seclogon
+Выводимое_имя: Вторичный вход в систему
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: SEMgrSvc
+Выводимое_имя: Диспетчер платежей и NFC/защищенных элементов
+        Тип                : 10  WIN32_OWN_PROCESS  
+***** NEWSCS.TXT
+
+Имя_службы: SecurityHealthService
+Выводимое_имя: Служба "Безопасность Windows"
+        Тип                : 10  WIN32_OWN_PROCESS  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: SENS
+Выводимое_имя: Служба уведомления о системных событиях
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: SEMgrSvc
+Выводимое_имя: Диспетчер платежей и NFC/защищенных элементов
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: SgrmBroker
+Выводимое_имя: Брокер мониторинга среды выполнения System Guard
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: SENS
+Выводимое_имя: Служба уведомления о системных событиях
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: ShellHWDetection
+Выводимое_имя: Определение оборудования оболочки
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: SgrmBroker
+Выводимое_имя: Брокер мониторинга среды выполнения System Guard
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: Spooler
+Выводимое_имя: Диспетчер печати
+        Тип                : 110  WIN32_OWN_PROCESS  (interactive)
+        Состояние          : 4  RUNNING 
+***** NEWSCS.TXT
+
+Имя_службы: ShellHWDetection
+Выводимое_имя: Определение оборудования оболочки
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+*****
+
+***** SCs.txt
+
+Имя_службы: SSDPSRV
+Выводимое_имя: Обнаружение SSDP
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: Spooler
+Выводимое_имя: Диспетчер печати
+        Тип                : 110  WIN32_OWN_PROCESS  (interactive)
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: SstpSvc
+Выводимое_имя: Служба SSTP
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: SSDPSRV
+Выводимое_имя: Обнаружение SSDP
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: StateRepository
+Выводимое_имя: Служба репозитория состояний
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: SstpSvc
+Выводимое_имя: Служба SSTP
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: StorSvc
+Выводимое_имя: Служба хранилища
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: StateRepository
+Выводимое_имя: Служба репозитория состояний
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: SysMain
+Выводимое_имя: SysMain
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: StorSvc
+Выводимое_имя: Служба хранилища
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: SystemEventsBroker
+Выводимое_имя: Брокер системных событий
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: SysMain
+Выводимое_имя: SysMain
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: TabletInputService
+Выводимое_имя: Служба сенсорной клавиатуры и панели рукописного ввода
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: SystemEventsBroker
+Выводимое_имя: Брокер системных событий
+        Тип                : 20  WIN32_SHARE_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: Themes
+Выводимое_имя: Темы
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: TabletInputService
+Выводимое_имя: Служба сенсорной клавиатуры и панели рукописного ввода
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: TimeBrokerSvc
+Выводимое_имя: Брокер времени
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: Themes
+Выводимое_имя: Темы
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: TokenBroker
+Выводимое_имя: Диспетчер учетных веб-записей
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: TimeBrokerSvc
+Выводимое_имя: Брокер времени
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+
+Имя_службы: TrkWks
+Выводимое_имя: Клиент отслеживания изменившихся связей
+        Тип                : 30  WIN32  
+***** NEWSCS.TXT
+
+Имя_службы: TokenBroker
+Выводимое_имя: Диспетчер учетных веб-записей
+        Тип                : 30  WIN32  
+*****
+
+***** SCs.txt
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+
+***** SCs.txt
+
+Имя_службы: TrustedInstaller
+Выводимое_имя: Установщик модулей Windows
+        Тип                : 10  WIN32_OWN_PROCESS  
+        Состояние          : 4  RUNNING 
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+***** NEWSCS.TXT
+
+Имя_службы: TrkWks
+Выводимое_имя: Клиент отслеживания изменившихся связей
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+*****
+

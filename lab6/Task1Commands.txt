@@ -1,0 +1,9 @@
+WMIC OS GET NAME,CAPTION,VERSION > C:\Lab6\SystemInfo.txt
+WMIC COMPUTERSYSTEM GET totalphysicalmemory > C:\Lab6\MemoryInfo.txt
+WMIC OS GET FreePhysicalMemory >> C:\Lab6\MemoryInfo.txt
+WMIC LOGICALDISK GET NAME,DESCRIPTION,FREESPACE,FILESYSTEM >> C:\Lab6\DisksInfo.txt
+MD C:\Lab6\TEST
+COPY C:\Lab6\* C:\Lab6\TEST
+COPY C:\Lab6\TEST\* C:\Lab6\TEST\AllInfo.txt
+for /f "skip=1" %%i in ("dir C:\Lab6\TEST /T:C/B/A-D/O-D") do erase C:\Lab6\Test\%%i
+

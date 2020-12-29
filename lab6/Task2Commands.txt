@@ -1,0 +1,6 @@
+NET USE Z: \\%COMPUTERNAME%\temp
+FORFILES C:\WINDOWS /C "cmd if @fsize>1048576 copy @path \\%COMPUTERNAME\temp"
+SCHTASKS /Create /TN "CopyToNetDisk" /TR C:\OSLabs\lab6\Task2_2.bat /MO 1 /SC MINUTE
+SCHTASKS /End /TN "CopyOnNetDisk"
+
+FC C:\Windows\%1 Z:\%1

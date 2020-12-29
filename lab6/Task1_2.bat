@@ -1,0 +1,2 @@
+MD C:\Lab6\TEST
+COPY C:\Lab6\* C:\Lab6\TEST

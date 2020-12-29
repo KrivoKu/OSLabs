@@ -1,0 +1,1 @@
+fc SCs.txt newSCs.txt > diff.txt
